@@ -18,23 +18,14 @@
   <body>
   	<!--Cabeçalho-->
     <section id="header">
-    	<div class="container-fluid">
+    	<div class="container">
 	    	<nav class="navbar fixed-top navbar-light bg-light">
-	    		<div class="row" id="menu-header">
-	    			<div class="col-md-4">
+	    		<div class="row" id="logo-header">
+	    			<div class="col-md-1"></div>
+	    			<div class="col-md-7">
 	    				<a class="navbar-brand" href="#">
 				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="">
 				  		</a>
-	    			</div>
-	    			<div class="col-md-4">
-	    				<div class="row">
-	    					<div class="col-md-6">
-	    						<a href="#" class="nav-item nav-link" id="link-header-left">Meus Anuncios</a>
-	    					</div>
-	    					<div class="col-md-6">
-								<a href="#" class="nav-item nav-link" id="link-header">Minha Conta</a>
-	    					</div>
-	    				</div>
 	    			</div>
 	    			<div class="col-md-4">
 	    				<form class="form-inline">
@@ -47,109 +38,55 @@
 		</div>
     </section>
 
-	<!--Banner Home-->
-	<section id="banner-home">
-		<h2>Banner aqui</h2>
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		  <ol class="carousel-indicators">
-		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		  </ol>
-		  <div class="carousel-inner">
-		    <div class="carousel-item active">
-		      <img class="d-block w-100" src="https://picsum.photos/900/?random" alt="First slide">
-		    </div>
-		    <div class="carousel-item">
-		      <img class="d-block w-100" src="https://picsum.photos/900/?random" alt="Second slide">
-		    </div>
-		    <div class="carousel-item">
-		      <img class="d-block w-100" src="https://picsum.photos/900/?random" alt="Third slide">
-		    </div>
-		  </div>
-		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
+	<!--Titulo e chamada para ação-->
+	<section id="titulo-Mapa">
+		<div class="row">
+			<div class="col-md-12" style="display: inline-flex;">
+				<h2 id="Bem-vindo-mapa">Bem vindo ao</h2>
+				<img src="images/E-agro logo.png" alt="Logo e-agro">
+			</div>
+			<div class="col-md-12">
+				<h3>Escolha seu estado para ver ou publicar anuncios</h3>
+			</div>
 		</div>
 	</section>
 
-	<!--Anuncios Home-->
-	<section id="anuncios-home">
+	<!--Mapa do Brasil-->
+	<section id="mapa">
 		<div class="container">
 			<div class="row">
-				<div class="col" id="barra-lateral">
-					<form class="form-inline">
-				    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-				    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar Por palavra-chave</button>
-		  			</form>
-					 <div class="list-group" id="list-tab" role="tablist">
-					      <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Agrotoxicos</a>
-					      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Rações</a>
-					      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Sementes</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Fertilizantes</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Ferramentas</a>
-					</div>	
-
-					<h4 id="busca-estado">Buscar por Estado</h4>
-					<div class="list-group" id="list-tab" role="tablist">
-						  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Minas Gerias</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">São Paulo</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Rio de Janeiro</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Paraná</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Rio Grande do Sul</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Santa Catarina</a>
-					      <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Acre</a>
-					      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Amapá</a>
-					      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Amazonas</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Pará</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Rondônia</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Roraima</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Tocantis</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Alagoas</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Bahia</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Ceará</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Maranhão</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Paraíba</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Pernambuco</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Piauí</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Rio Grande do Norte</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Sergipe</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Goiás</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Mato Grosso</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Mato Grosso do Sul</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Distrito Federal</a>
-					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Espírito Santo</a>
-					</div>							
-				</div>
-				<div class="col-9" id="anuncios">
-					<div class="row">
-						
-					
-					<?php for ($i=0; $i < 12; $i++) { ?>
-					
-						<div class="card col-4">
-						  <img class="card-img-top" src="https://picsum.photos/300/?random" alt="Card image cap">
-						  <div class="card-body">
-						    <h5 class="card-title">Titulo do anuncio</h5>
-						    <p class="card-text">Pequena descrição do anuncio</p>
-						    <a href="#" class="btn btn-primary">Ver anuncio</a>
-						  </div>
-						</div>
-					
-
-					<?php }?>
-					</div>
+				<div class="col-md-12" id="Mapa-do-brasil">
+					<a href="home.php" class="estado-mapa" id="Acre">Acre</a>
+					<a href="home.php" class="estado-mapa" id="Amapa">Amapá</a>
+					<a href="home.php" class="estado-mapa" id="Amazonas">Amazonas</a>
+					<a href="home.php" class="estado-mapa" id="Para">Pará</a>
+					<a href="home.php" class="estado-mapa" id="Rondonia">Rondônia</a>
+					<a href="home.php" class="estado-mapa" id="Roraima">Roraima</a>
+					<a href="home.php" class="estado-mapa" id="Tocantins">Tocantins</a>
+					<a href="home.php" class="estado-mapa" id="Alagoas">Alagoas</a>
+					<a href="home.php" class="estado-mapa" id="Bahia">Bahia</a>
+					<a href="home.php" class="estado-mapa" id="Ceara">Ceará</a>
+					<a href="home.php" class="estado-mapa" id="Maranhao">Maranhão</a>
+					<a href="home.php" class="estado-mapa" id="Paraaba">Paraíba</a>
+					<a href="home.php" class="estado-mapa" id="Pernambuco">Pernambuco</a>
+					<a href="home.php" class="estado-mapa" id="Piaui">Piauí</a>
+					<a href="home.php" class="estado-mapa" id="Rio-Grande-do-Norte">Rio Grande do Norte</a>
+					<a href="home.php" class="estado-mapa" id="Sergipe">Sergipe</a>
+					<a href="home.php" class="estado-mapa" id="Goias">Goiás</a>
+					<a href="home.php" class="estado-mapa" id="Mato-Grosso">Mato Grosso</a>
+					<a href="home.php" class="estado-mapa" id="Mato-Grosso-do-Sul">Mato Grosso do Sul</a>
+					<a href="home.php" class="estado-mapa" id="Distrito-federal">Distrito federal</a>
+					<a href="home.php" class="estado-mapa" id="Espirito-Santo">Espírito Santo</a>
+					<a href="home.php" class="estado-mapa" id="Minas-Gerais">Minas gerais</a>
+					<a href="home.php" class="estado-mapa" id="Sao-Paulo">São Paulo</a>
+					<a href="home.php" class="estado-mapa" id="Rio-de-Janeiro">Rio de Janeiro</a>
+					<a href="home.php" class="estado-mapa" id="Parana">Paraná</a>
+					<a href="home.php" class="estado-mapa" id="Rio-Grande do Sul">Rio Grande do Sul</a>
+					<a href="home.php" class="estado-mapa" id="Santa-Catarina">Santa Catarina</a>
 				</div>
 			</div>
 		</div>
-		
 	</section>
-
 	<!--Rodapé-->
 	<section id="footer">
 		<nav class="navbar navbar-dark bg-dark">
