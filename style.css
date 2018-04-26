@@ -152,6 +152,170 @@ h2#Bem-vindo-mapa {
     margin-right: auto;
     margin-left: auto;
 }
+a#Acre {
+    position: relative;
+    top: 218px;
+    left: 216px;
+    text-decoration: none;
+    color: #343A40;
+}
+a#Amazonas {
+    position: relative;
+    top: 153px;
+    left: 170px;
+    color: #343A40;
+}
+a#Roraima {
+    position: relative;
+    top: 23px;
+    left: 35px;
+    color: #343A40;
+}
+a#Para {
+    position: relative;
+    top: 150px;
+    left: 280px;
+    color: #343A40;
+}
+a#Amapa {
+    position: relative;
+    top: 50px;
+    left: 426px;
+    color: #343A40;
+}
+a#Rondonia {
+    position: relative;
+    top: 251px;
+    left: 94px;
+    color: #343A40;
+}
+a#Tocantins {
+    position: relative;
+    top: 230px;
+    left: 167px;
+    color: #343A40;
+}
+a#Maranhao {
+    position: relative;
+    top: 145px;
+    left: -8px;
+    color: #343A40;
+}
+a#Mato-Grosso {
+    position: relative;
+    top: 251px;
+    left: 279px;
+    color: #343A40;
+}
+a#Piaui {
+    position: relative;
+    top: 199px;
+    right: 183px;
+    color: #343A40;
+}
+a#Goias {
+    position: relative;
+    top: 305px;
+    left: 432px;
+    color: #343A40;
+}
+a#Distrito-federal {
+    position: relative;
+    top: 284px;
+    left: 182px;
+    color: #343A40;
+}
+a#Ceara {
+    position: relative;
+    top: 144px;
+    left: 135px;
+    color: #343A40;
+}
+a#Rio-Grande-do-Norte {
+    position: relative;
+    top: 157px;
+    right: 124px;
+    color: #343A40;
+}
+a#Paraaba {
+    position: relative;
+    top: 178px;
+    left: 49px;
+    color: #343A40;
+}
+a#Pernambuco {
+    position: relative;
+    top: 200px;
+    right: 35px;
+    color: #343A40;
+}
+a#Alagoas {
+    position: relative;
+    top: 219px;
+    left: 300px;
+    color: #343A40;
+}
+a#Sergipe {
+    position: relative;
+    top: 210px;
+    left: 692px;
+    color: #343A40;
+}
+a#Bahia {
+    position: relative;
+    top: 266px;
+    left: 144px;
+    color: #343A40;
+}
+a#Minas-Gerais {
+    position: relative;
+    top: 336px;
+    left: 86px;
+    color: #343A40;
+}
+a#Espirito-Santo {
+    position: relative;
+    top: 341px;
+    left: 285px;
+    color: #343A40;
+}
+a#Rio-de-Janeiro {
+    position: relative;
+    top: 389px;
+    right: 15px;
+    color: #343A40;
+}
+a#Sao-Paulo {
+    position: relative;
+    top: 380px;
+    right: 71px;
+    color: #343A40;
+}
+a#Parana {
+    position: relative;
+    top: 421px;
+    right: 270px;
+    color: #343A40;
+}
+a#Santa-Catarina {
+    position: relative;
+    top: 434px;
+    left: 493px;
+    color: #343A40;
+}
+a#Rio-Grande-do-Sul {
+    position: relative;
+    top: 500px;
+    right: 369px;
+    color: #343A40;
+}
+a#Mato-Grosso-do-Sul {
+    position: relative;
+    top: 357px;
+    left: 142px;
+    color: #343A40;
+}
+
 /*-------------------------------------------------------
 Alterações em vários dispositivos!
 ---------------------------------------------------------*/

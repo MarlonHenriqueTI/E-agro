@@ -75,14 +75,14 @@
 					<a href="home.php" class="estado-mapa" id="Goias">Goiás</a>
 					<a href="home.php" class="estado-mapa" id="Mato-Grosso">Mato Grosso</a>
 					<a href="home.php" class="estado-mapa" id="Mato-Grosso-do-Sul">Mato Grosso do Sul</a>
-					<a href="home.php" class="estado-mapa" id="Distrito-federal">Distrito federal</a>
+					<a href="home.php" class="estado-mapa" id="Distrito-federal">DF</a>
 					<a href="home.php" class="estado-mapa" id="Espirito-Santo">Espírito Santo</a>
-					<a href="home.php" class="estado-mapa" id="Minas-Gerais">Minas gerais</a>
+					<a href="home.php" class="estado-mapa" id="Minas-Gerais">Minas Gerais</a>
 					<a href="home.php" class="estado-mapa" id="Sao-Paulo">São Paulo</a>
 					<a href="home.php" class="estado-mapa" id="Rio-de-Janeiro">Rio de Janeiro</a>
 					<a href="home.php" class="estado-mapa" id="Parana">Paraná</a>
-					<a href="home.php" class="estado-mapa" id="Rio-Grande do Sul">Rio Grande do Sul</a>
-					<a href="home.php" class="estado-mapa" id="Santa-Catarina">Santa Catarina</a>
+					<a href="home.php" class="estado-mapa" id="Rio-Grande-do-Sul">Rio Grande do Sul</a>
+					<a href="home.php" class="estado-mapa" id="Santa-Catarina">SantaCatarina</a>
 				</div>
 			</div>
 		</div>
