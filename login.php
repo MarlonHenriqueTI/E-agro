@@ -16,8 +16,9 @@
     <title>Marlon Henrique - Demonstração de sites</title>
   </head>
   <body>
+
   	<!--Cabeçalho-->
-    <section id="header">
+ <section id="header">
     	<div class="container">
 	    	<nav class="navbar fixed-top navbar-light bg-light">
 	    		<div class="row" id="logo-header">
@@ -34,59 +35,64 @@
 			  			</form>
 	    			</div>
 	    		</div>
+	    		<div class="row" id="menu-header">
+	    			<div class="col-md-4"></div>
+	    					<div class="col-md-2">
+	    						<a href="#" class="nav-item nav-link" id="link-header-left">Meus Anuncios</a>
+	    					</div>
+	    					<div class="col-md-2">
+								<a href="login.php" class="nav-item nav-link active" id="link-header">Minha Conta</a>
+	    					</div>
+	    			<div class="col-md-4"></div>
+	    		</div>
 			</nav>
 		</div>
     </section>
 
-	<!--Titulo e chamada para ação-->
-	<section id="titulo-Mapa">
-		<div class="row">
-			<div class="col-md-12" style="display: inline-flex;">
-				<h2 id="Bem-vindo-mapa">Bem vindo ao</h2>
-				<img src="images/E-agro logo.png" alt="Logo e-agro">
-			</div>
-			<div class="col-md-12">
-				<h3>Escolha seu estado para ver ou publicar anuncios</h3>
-			</div>
-		</div>
-	</section>
-
-	<!--Mapa do Brasil-->
-	<section id="mapa">
+	<!--Formularios-->
+	<section class="login-form">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12" id="Mapa-do-brasil">
-					<a href="home.php" class="estado-mapa" id="Acre">Acre</a>
-					<a href="home.php" class="estado-mapa" id="Amapa">Amapá</a>
-					<a href="home.php" class="estado-mapa" id="Amazonas">Amazonas</a>
-					<a href="home.php" class="estado-mapa" id="Para">Pará</a>
-					<a href="home.php" class="estado-mapa" id="Rondonia">Rondônia</a>
-					<a href="home.php" class="estado-mapa" id="Roraima">Roraima</a>
-					<a href="home.php" class="estado-mapa" id="Tocantins">Tocantins</a>
-					<a href="home.php" class="estado-mapa" id="Alagoas">Alagoas</a>
-					<a href="home.php" class="estado-mapa" id="Bahia">Bahia</a>
-					<a href="home.php" class="estado-mapa" id="Ceara">Ceará</a>
-					<a href="home.php" class="estado-mapa" id="Maranhao">Maranhão</a>
-					<a href="home.php" class="estado-mapa" id="Paraaba">Paraíba</a>
-					<a href="home.php" class="estado-mapa" id="Pernambuco">Pernambuco</a>
-					<a href="home.php" class="estado-mapa" id="Piaui">Piauí</a>
-					<a href="home.php" class="estado-mapa" id="Rio-Grande-do-Norte">Rio Grande do Norte</a>
-					<a href="home.php" class="estado-mapa" id="Sergipe">Sergipe</a>
-					<a href="home.php" class="estado-mapa" id="Goias">Goiás</a>
-					<a href="home.php" class="estado-mapa" id="Mato-Grosso">Mato Grosso</a>
-					<a href="home.php" class="estado-mapa" id="Mato-Grosso-do-Sul">Mato Grosso do Sul</a>
-					<a href="home.php" class="estado-mapa" id="Distrito-federal">DF</a>
-					<a href="home.php" class="estado-mapa" id="Espirito-Santo">Espírito Santo</a>
-					<a href="home.php" class="estado-mapa" id="Minas-Gerais">Minas Gerais</a>
-					<a href="home.php" class="estado-mapa" id="Sao-Paulo">São Paulo</a>
-					<a href="home.php" class="estado-mapa" id="Rio-de-Janeiro">Rio de Janeiro</a>
-					<a href="home.php" class="estado-mapa" id="Parana">Paraná</a>
-					<a href="home.php" class="estado-mapa" id="Rio-Grande-do-Sul">Rio Grande do Sul</a>
-					<a href="home.php" class="estado-mapa" id="Santa-Catarina">SantaCatarina</a>
+				<div class="col-md-6" id="form-login">
+					<h4 id="titulo-login">Entre agora com sua conta E-agro</h3>
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Seu e-mail</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@email.com">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Senha</label>
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+					  </div>
+					  <div class="row">
+					  	<div class="col-md-6">
+					  		<div class="form-check">
+							    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+							    <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+					  		</div>
+					  	</div>
+					  	<div class="col-md-6">
+					  		<a href="#" id="esqueceu-senha">Esqueceu sua senha?</a>
+					  	</div>
+					  </div>
+					  <button type="submit" class="btn btn-outline-secondary">Entrar</button>
+					</form>
+				</div>
+				<div class="col-md-6" id="form-cadastro">
+					<h4 id="titulo-cadastro">Cadastre-se agora na E-agro</h3>
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Seu e-mail</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@email.com">
+					  </div>
+					  <button type="submit" class="btn btn-outline-secondary" onclick="javascript: location.href='cadastro.php';">Cadastrar</button>
+					</form>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
 	<!--Rodapé-->
 	<section id="footer">
 		<nav class="navbar navbar-dark bg-dark">

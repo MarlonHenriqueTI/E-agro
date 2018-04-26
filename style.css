@@ -315,7 +315,71 @@ a#Mato-Grosso-do-Sul {
     left: 142px;
     color: #343A40;
 }
-
+section.login-form {
+    margin-top: 200px;
+}
+div#form-login {
+    padding: 0 75px;
+}
+div#form-cadastro {
+    padding: 0 75px;
+}
+.login-form button {
+    float: right;
+    width: 100%;
+}
+#form-login button {
+    margin-top: 15px;
+}
+a#esqueceu-senha {
+    float: right;
+    text-decoration: none;
+}
+h4#titulo-login {
+    color: #312512;
+    margin-bottom: 30px;
+}
+h4#titulo-cadastro {
+    color: #312512;
+    margin-bottom: 30px;
+}
+#formulario-cadastro button {
+    float: right;
+    width: 30%;
+}
+section.cadastro-form {
+    margin-top: 150px;
+}
+h3#cadastro-title {
+    text-align: center;
+    color: #312512;
+    margin-bottom: 37px;
+}
+div#formulario-cadastro {
+    padding: 57px;
+    border: 1px solid #312512;
+    box-shadow: 10px 10px 31px -2px rgba(0,0,0,0.75);
+}
+a#Like {
+    color: #312512;
+    float: right;
+}
+a#Like:active i {
+    color: red;
+}
+a#Like:hover i {
+    color: red;
+}
+a.btn.btn-primary:hover {
+    background-color: #FFFFFF;
+    color: #36BE2A;
+}
+nav#caminho-home {
+    width: 100%;
+    margin-top: -44px;
+    margin-left: 14px;
+    margin-bottom: 20px;
+}
 /*-------------------------------------------------------
 Alterações em vários dispositivos!
 ---------------------------------------------------------*/

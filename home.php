@@ -23,8 +23,8 @@
 	    		<div class="row" id="logo-header">
 	    			<div class="col-md-1"></div>
 	    			<div class="col-md-7">
-	    				<a class="navbar-brand" href="#">
-				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="">
+	    				<a class="navbar-brand" href="home.php">
+				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="logo do e-agro">
 				  		</a>
 	    			</div>
 	    			<div class="col-md-4">
@@ -40,7 +40,7 @@
 	    						<a href="#" class="nav-item nav-link" id="link-header-left">Meus Anuncios</a>
 	    					</div>
 	    					<div class="col-md-2">
-								<a href="#" class="nav-item nav-link" id="link-header">Minha Conta</a>
+								<a href="login.php" class="nav-item nav-link" id="link-header">Minha Conta</a>
 	    					</div>
 	    			<div class="col-md-4"></div>
 	    		</div>
@@ -82,6 +82,15 @@
 	<!--Anuncios Home-->
 	<section id="anuncios-home">
 		<div class="container">
+			<div class="row">
+				<nav aria-label="breadcrumb" id="caminho-home">
+				  <ol class="breadcrumb">
+				    <li class="breadcrumb-item"><a href="#">Home</a></li>
+				    <li class="breadcrumb-item"><a href="#">Estado</a></li>
+				    <li class="breadcrumb-item active" aria-current="page">Categoria</li>
+				  </ol>
+				</nav>
+			</div>
 			<div class="row">
 				<div class="col" id="barra-lateral">
 					<form class="form-inline">
