@@ -79,6 +79,18 @@
 		</div>
 	</section>
 
+	<!--Mensagem e Botão-->
+	<section id="sobre">
+		<div class="row">
+			<div class="col-md-12" id="sobre-eagro">
+				<h3>e-Agro</h3>
+				<p>Um novo conceito em agronecio, facil, pratico e agil</p>
+				<p>aumente a eficiência e a gestão de suas vendas.</p>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="botao-sobre" onclick="javascript: location.href='sobre.php';">Saiba mais</button>
+			</div>
+		</div>
+	</section>
+
 	<!--Anuncios Home-->
 	<section id="anuncios-home">
 		<div class="container">

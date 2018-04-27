@@ -1,7 +1,3 @@
-<?php 
-	session_start();
- ?>
-
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -20,9 +16,8 @@
     <title>Marlon Henrique - Demonstração de sites</title>
   </head>
   <body>
-
   	<!--Cabeçalho-->
- <section id="header">
+    <section id="header">
     	<div class="container">
 	    	<nav class="navbar fixed-top navbar-light bg-light">
 	    		<div class="row" id="logo-header">
@@ -45,7 +40,7 @@
 	    						<a href="#" class="nav-item nav-link" id="link-header-left">Meus Anuncios</a>
 	    					</div>
 	    					<div class="col-md-2">
-								<a href="login.php" class="nav-item nav-link active" id="link-header">Minha Conta</a>
+								<a href="login.php" class="nav-item nav-link" id="link-header">Minha Conta</a>
 	    					</div>
 	    			<div class="col-md-4"></div>
 	    		</div>
@@ -53,51 +48,60 @@
 		</div>
     </section>
 
-	<!--Formularios-->
-	<section class="login-form">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6" id="form-login">
-					<h4 id="titulo-login">Entre agora com sua conta E-agro</h3>
-					<form method="POST" action="valida-login.php">
-					  <div class="form-group">
-					    <label for="exampleInputEmail1">Seu e-mail</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@email.com" name="usuario" required autofocus>
-					  </div>
-					  <div class="form-group">
-					    <label for="exampleInputPassword1">Senha</label>
-					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" required name="senha">
-					  </div>
-					  <div class="row">
-					  	<div class="col-md-6">
-					  		<div class="form-check">
-							    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-							    <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
-					  		</div>
-					  	</div>
-					  	<div class="col-md-6">
-					  		<a href="#" id="esqueceu-senha">Esqueceu sua senha?</a>
-					  	</div>
-					  </div>
-					  <button type="submit" class="btn btn-outline-secondary">Entrar</button>
-					</form>
-				</div>
-				<div class="col-md-6" id="form-cadastro">
-					<h4 id="titulo-cadastro">Cadastre-se agora na E-agro</h3>
-					<form>
-					  <div class="form-group">
-					    <label for="exampleInputEmail1">Seu e-mail</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@email.com">
-					  </div>
-					  <button type="submit" class="btn btn-outline-secondary" onclick="javascript: location.href='cadastro.php';">Cadastrar</button>
-					</form>
+	<section id="pag-sobre">
+			<div id="sobre-1">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2>Sobre a E-agro</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos hic animi dolorem voluptatibus, ex est repellendus at vitae perferendis consequuntur expedita distinctio, officia quisquam, culpa molestias pariatur totam sed illum.</p>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+			<div id="sobre-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-4">
+							<img src="https://picsum.photos/600/?random" alt="Imagem sobre">
+						</div>
+						<div class="col-md-4">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate culpa, nam. Facere explicabo magni vel debitis minima voluptatem, earum minus magnam distinctio aperiam recusandae voluptate tempore, tempora rerum provident quis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolore quod recusandae quas ipsum aspernatur cum, modi ex tempore saepe, excepturi dignissimos facere, minima provident vitae molestias id deleniti, cupiditate.</p>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+				</div>
+			</div>
+			<div id="sobre-3">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-4">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate culpa, nam. Facere explicabo magni vel debitis minima voluptatem, earum minus magnam distinctio aperiam recusandae voluptate tempore, tempora rerum provident quis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eaque, commodi, libero culpa dolores, quam aspernatur quasi sequi suscipit beatae doloribus quidem harum ipsam perspiciatis non fuga voluptatibus ut in.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="https://picsum.photos/600/?random" alt="Imagem sobre">
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+				</div>
+			</div>
+			<div id="sobre-4">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos hic animi dolorem voluptatibus, ex est repellendus at vitae perferendis consequuntur expedita distinctio, officia quisquam, culpa molestias pariatur totam sed illum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
 	</section>
 
-
-	<!--Rodapé-->
+   <!--Rodapé-->
 	<section id="footer">
 		<nav class="navbar navbar-dark bg-dark">
 		 	<div class="row">
