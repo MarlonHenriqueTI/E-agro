@@ -79,7 +79,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12" id="descricao-vendedor-produto">
 							<h3>Box com descrição do vendedor</h3>
 							<p>Nome</p>
 							<p>Numero</p>
@@ -87,37 +87,44 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12" id="contato-vendedor">
 							<h3>Botão pra falar com o vendedor</h3>
-							<a href="produto.php" class="btn btn-primary">Falar com o vendedor</a>
+							<a href="produto.php" class="btn btn-primary" id="botao-contato-vendedor">Falar com o vendedor</a>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12" id="seguranca-produto">
 							<h3>Box com dicas de segurança</h3>
 							<p>Não pague adiantado</p>
 							<p>Desconfie de anuncios não realistas</p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-4"><p class="like-label">Curtir: <a href="produto.php" id="Like"><i class="far fa-heart fa-1x"></i></a> </p></div>
-						<div class="col-md-8"> <p>Compartilhar:Redes Sociais aqui</p></div>
+						<div class="col-md-4" id="curtir-produto">
+							<p class="like-label">
+								Curtir: <a href="produto.php" id="Like"><i class="far fa-heart fa-1x"></i></a> 
+							</p>
+						</div>
+						<div class="col-md-8" id="compartilhar-produto"> 
+							<p>Compartilhar:Redes Sociais aqui</p>
+						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12" id="titulo-desc-produto">
 						<h2>Nome do Produto - R$500,00</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12" id="desc-produto">
 						<h2>Descrição do produto</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda saepe, similique nesciunt eveniet debitis architecto a itaque eligendi et nostrum expedita iste aliquid, error fugit libero vero quos harum? Rem!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis alias debitis culpa minima laudantium voluptatibus possimus illum deleniti aut atque voluptatum voluptate provident vitae quam vel, mollitia totam numquam laboriosam.</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12" id="mapa-produto">
 						<h2>Mapa + detalhes de localização</h2>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7507.316706426105!2d-43.17109572731246!3d-19.812077773770795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa5074732765415%3A0xe75615374cb9bb9a!2sJo%C3%A3o+Monlevade%2C+MG!5e0!3m2!1spt-BR!2sbr!4v1524940571423" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>

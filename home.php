@@ -168,7 +168,7 @@
 						    		<p class="like-label">Curtiu?</p>
 						    	</div>
 						    	<div class="col-md-6">
-						    		<a href="produto.php" id="Like"><i class="far fa-heart fa-1x"></i></a>
+						    		<a href="#" id="Like"><i class="far fa-heart fa-1x"></i></a>
 						    	</div>
 						    </div>
 						    <a href="produto.php" class="btn btn-primary">Ver anuncio</a>
