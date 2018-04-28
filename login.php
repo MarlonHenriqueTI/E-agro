@@ -84,12 +84,12 @@
 				</div>
 				<div class="col-md-6" id="form-cadastro">
 					<h4 id="titulo-cadastro">Cadastre-se agora na E-agro</h3>
-					<form>
+					<form action="javascript: location.href='cadastro.php';">
 					  <div class="form-group">
-					    <label for="exampleInputEmail1">Seu e-mail</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@email.com">
+					    <label for="exampleInputEmail1">Seu nome</label>
+					    <input type="text" class="form-control" id="cadastro-nome" aria-describedby="name" placeholder="Seu nome" name="nome">
 					  </div>
-					  <button type="submit" class="btn btn-outline-secondary" onclick="javascript: location.href='cadastro.php';">Cadastrar</button>
+					  <button type="submit" class="btn btn-outline-secondary">Cadastrar</button>
 					</form>
 				</div>
 			</div>
