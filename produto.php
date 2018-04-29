@@ -64,10 +64,14 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<h3 id="titulo-anuncio">Nome do produto</h3>
+						<div class="alert alert-light" role="alert">
+						 	<h2 id="titulo-anuncio">Nome do produto</h2>
+						</div>
 					</div>
 					<div class="col-md-6">
-						<h3 id="Preco-produto">R$500,00</h3>
+						<div class="alert alert-success" role="alert">
+						    <h3 id="Preco-produto">R$500,00</h3>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -80,23 +84,28 @@
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-md-12" id="descricao-vendedor-produto">
-							<h3>Box com descrição do vendedor</h3>
-							<p>Nome</p>
-							<p>Numero</p>
-							<p>E-mail</p>
+							<div class="jumbotron jumbotron-fluid" style="width: 100%;">
+							  <div class="container">
+							    <h3 class="display-4">Nome do vendedor</h3>
+							    <p class="lead">Telefone: (xx)xxxxx-xxxx</p>
+							    <p class="lead">E-mail: contato@email.com</p>
+							  </div>
+							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12" id="contato-vendedor">
-							<h3>Botão pra falar com o vendedor</h3>
 							<a href="produto.php" class="btn btn-primary" id="botao-contato-vendedor">Falar com o vendedor</a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12" id="seguranca-produto">
-							<h3>Box com dicas de segurança</h3>
-							<p>Não pague adiantado</p>
-							<p>Desconfie de anuncios não realistas</p>
+							<div class="jumbotron jumbotron-fluid" style="width: 100%;">
+							  <div class="container">
+							    <p class="lead">Não pague adiantado</p>
+							    <p class="lead">Desconfie de anuncios não realistas</p>
+							  </div>
+							</div>
 						</div>
 					</div>
 					<div class="row">
@@ -117,7 +126,6 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12" id="desc-produto">
-						<h2>Descrição do produto</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda saepe, similique nesciunt eveniet debitis architecto a itaque eligendi et nostrum expedita iste aliquid, error fugit libero vero quos harum? Rem!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis alias debitis culpa minima laudantium voluptatibus possimus illum deleniti aut atque voluptatum voluptate provident vitae quam vel, mollitia totam numquam laboriosam.</p>
 					</div>
 				</div>

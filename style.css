@@ -460,6 +460,21 @@ section#single {
 .row {
     width: 100%;
 }
+div#seguranca-produto {
+    margin-top: 25px;
+}
+.jumbotron.jumbotron-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div#titulo-desc-produto {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#single .col-md-6 .row {
+    width: 100%;
+    margin-right: 0;
+}
 /*-------------------------------------------------------
 Alterações em vários dispositivos!
 ---------------------------------------------------------*/
