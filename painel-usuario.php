@@ -8,7 +8,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-
     <!--CSS site-->
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/E-agro-icone.ico" type="image/x-icon" />
@@ -49,94 +48,27 @@
 		</div>
     </section>
 
-	<!--Formulario de cadastro-->
-	<section class="cadastro-form">
-		<div class="container">
-			<h3 id="cadastro-title">Preencha os campos abaixo para realizar seu cadastro</h3>
-			<div class="row">
-				<div class="col-md-2">
+	<section id="painel-usuario">
+		<div class="row">
+			<div class="col-md-2" id="menu-painel">					
+				<div class="list-group" id="list-tab" role="tablist">
+				   	  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Meus anuncios</a>
+					    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Inserir anuncio</a>
+						<a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Excluir anuncio</a>
+						<a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Alterar meu cadastro</a>
+					</div>					
+			</div>
+			<div class="col-md-10" id="corpo-painel">
+				<div class="container-fluid">
+					<div class="row">
+						<h2>corpo aqui</h2>
+					</div>
 				</div>
-				<div class="col-md-8" id="formulario-cadastro">
-					<form method="POST" action="cadastro-usuario.php">
-						<div class="form-group">
-							<label for="exampleFormControlInput1">Digite seu Nome</label>
-					    	<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome" name="usuario">
-					 	</div>
-					    <div class="form-group">
-					    	<label for="exampleFormControlInput1">CPF</label>
-					    	<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="111.111.111-11" name="cpf">
-						</div>
-						<div class="form-group">
-					    	<label for="exampleFormControlInput1">Digite seu E-mail</label>
-					    	<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com" name="email">
-						</div>
-						<div class="form-group">
-					    	<label for="exampleFormControlInput1">Senha</label>
-					    	<input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Senha" name="senha">
-						</div>
-						<div class="form-group">
-					    	<label for="exampleFormControlInput1">Confirme sua senha</label>
-					    	<input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Senha" name="confirma-senha">
-						</div>
-						
-						<div class="form-group">
-						    <label for="exampleFormControlSelect1">Estado</label>
-						    <select class="form-control" id="exampleFormControlSelect1" name="estado">
-						      <option>AC</option>
-						      <option>AL</option>
-						      <option>AP</option>
-						      <option>AM</option>
-						      <option>BA</option>
-						      <option>CE</option>
-						      <option>DF</option>
-						      <option>ES</option>
-						      <option>GO</option>
-						      <option>MA</option>
-						      <option>MT</option>
-						      <option>MS</option>
-						      <option>MG</option>
-						      <option>PA</option>
-						      <option>PB</option>
-						      <option>PR</option>
-						      <option>PE</option>
-						      <option>PI</option>
-						      <option>RJ</option>
-						      <option>RN</option>
-						      <option>RS</option>
-						      <option>RO</option>
-						      <option>RR</option>
-						      <option>SC</option>
-						      <option>SP</option>
-						      <option>SE</option>
-						      <option>TO</option>
-						    </select>
-						</div>
-						 <div class="form-group">
-					    	<label for="exampleFormControlInput1">CEP</label>
-					    	<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="11111-111" name="cep">
-						</div>
-						<div class="form-group">
-					    	<label for="exampleFormControlInput1">Cidade</label>
-					    	<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Belo Horizonte" name="cidade">
-						</div>
-						<div class="form-group">
-					    	<label for="exampleFormControlInput1">Endereço</label>
-					    	<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Rua: nome da rua , numero, Complemento, Bairro" name="endereco">
-						</div>
-						<div class="form-check">
-							<input type="checkbox" class="form-check-input" id="exampleCheck1" name="confirma-real">
-							<label class="form-check-label" for="exampleCheck1">Sou uma pessoa real e aceito receber e-mails e ofertas</label>
-					  	</div>
-					  	<button type="submit" class="btn btn-outline-secondary">Cadastrar</button>
-					</form>
-				</div>
-				<div class="col-md-2"></div>
 			</div>
 		</div>
 	</section>
 
-
-	<!--Rodapé-->
+      <!--Rodapé-->
 	<section id="footer">
 		<nav class="navbar navbar-dark bg-dark">
 		 	<div class="row">

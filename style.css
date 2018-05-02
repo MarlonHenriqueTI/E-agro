@@ -541,6 +541,39 @@ button#btn-comentario {
     margin-top: 10px!important;
     width: 15%;
 }
+section#painel-usuario {
+    margin-top: 150px;
+}
+section#painel-administrador {
+    margin-top: 150px;
+}
+div#menu-painel {
+    background-color: #2A2E49;
+    height: 100%;
+    margin-bottom: -70px;
+    padding-bottom: 850px;
+    padding-left: 25px;
+    margin-top: -65px;
+    padding-top: 30px;
+}
+div#menu-painel div a {
+    background: #2A2E49;
+    color: #FDCB2F;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+    transition: 0.5s;
+}
+div#menu-painel div a:hover {
+    color: #0E7F53;
+    background-color: #FDCB2F;
+    border-radius: 14px;
+}
+div#menu-painel div a:active {
+    color: #0E7F53;
+    background-color: #FDCB2F;
+    border-radius: 14px;
+}
 /*-------------------------------------------------------
 Alterações em vários dispositivos!
 ---------------------------------------------------------*/

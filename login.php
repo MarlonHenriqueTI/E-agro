@@ -42,7 +42,7 @@
 	    		<div class="row" id="menu-header">
 	    			<div class="col-md-4"></div>
 	    					<div class="col-md-2">
-	    						<a href="#" class="nav-item nav-link" id="link-header-left">Meus Anuncios</a>
+	    						<a href="painel-usuario.php" class="nav-item nav-link" id="link-header-left">Meus Anuncios</a>
 	    					</div>
 	    					<div class="col-md-2">
 								<a href="login.php" class="nav-item nav-link active" id="link-header">Minha Conta</a>

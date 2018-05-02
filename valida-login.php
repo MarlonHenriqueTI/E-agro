@@ -2,5 +2,8 @@
 	$sql = session_start();
 	$usuariot =$_POST['usuario'];
 	$senhat =$_POST['senha'];
-	 echo "login:".$usuariot." Senha:".$senhat;
+	
+	header("Location: painel-usuario.php");
+
+
  ?>
