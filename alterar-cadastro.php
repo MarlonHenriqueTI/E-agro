@@ -74,23 +74,7 @@
 											<label for="exampleFormControlInput1">Digite seu Nome</label>
 									    	<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome" name="usuario">
 									 	</div>
-									    <div class="form-group">
-									    	<label for="exampleFormControlInput1">CPF</label>
-									    	<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="111.111.111-11" name="cpf">
-										</div>
-										<div class="form-group">
-									    	<label for="exampleFormControlInput1">Digite seu E-mail</label>
-									    	<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com" name="email">
-										</div>
-										<div class="form-group">
-									    	<label for="exampleFormControlInput1">Senha</label>
-									    	<input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Senha" name="senha">
-										</div>
-										<div class="form-group">
-									    	<label for="exampleFormControlInput1">Confirme sua senha</label>
-									    	<input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Senha" name="confirma-senha">
-										</div>
-										
+									
 										<div class="form-group">
 										    <label for="exampleFormControlSelect1">Estado</label>
 										    <select class="form-control" id="exampleFormControlSelect1" name="estado">
