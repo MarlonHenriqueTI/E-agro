@@ -24,7 +24,7 @@
 	    			<div class="col-md-1"></div>
 	    			<div class="col-md-7">
 	    				<a class="navbar-brand" href="home.php">
-				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="logo do e-agro">
+				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="logo do e-agro" id="logo">
 				  		</a>
 	    			</div>
 	    			<div class="col-md-4">
@@ -53,8 +53,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h2>Sobre a E-agro</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos hic animi dolorem voluptatibus, ex est repellendus at vitae perferendis consequuntur expedita distinctio, officia quisquam, culpa molestias pariatur totam sed illum.</p>
+							<h2>O que é E-AGRO?</h2>
+							<p>O E-AGRO é uma plataforma baseada na OLX site de classificáveis onde é possível anunciar e vender produtos de forma ágil e segura em um ambiente comparado a uma feira online onde pessoas voltadas ao agronegócio poderão anunciar seus produtos, contemplando dês de o pequeno ao grande produtor.</p>
 						</div>
 					</div>
 				</div>
@@ -64,11 +64,11 @@
 					<div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-4">
-							<img src="https://picsum.photos/600/?random" alt="Imagem sobre">
+							<img src="images/imagem-sobre.jpg" alt="Imagem sobre">
 						</div>
 						<div class="col-md-4">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate culpa, nam. Facere explicabo magni vel debitis minima voluptatem, earum minus magnam distinctio aperiam recusandae voluptate tempore, tempora rerum provident quis.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolore quod recusandae quas ipsum aspernatur cum, modi ex tempore saepe, excepturi dignissimos facere, minima provident vitae molestias id deleniti, cupiditate.</p>
+							<h2>Como surgiu?</h2>
+							<p>O E-AGRO surgiu por meio de um Aluno de Sistemas de Informação e Agronegócio que pensou em facilitar a vida dos produtores e empreendedores da área, juntando assim o mundo do agronegócio com as facilidades da tecnologia.</p>
 						</div>
 						<div class="col-md-2"></div>
 					</div>
@@ -79,11 +79,14 @@
 					<div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-4">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate culpa, nam. Facere explicabo magni vel debitis minima voluptatem, earum minus magnam distinctio aperiam recusandae voluptate tempore, tempora rerum provident quis.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eaque, commodi, libero culpa dolores, quam aspernatur quasi sequi suscipit beatae doloribus quidem harum ipsam perspiciatis non fuga voluptatibus ut in.</p>
+							<h2>Dicas de como fazer um bom anúncio</h2>
+							<p>Aqui nós conectamos pessoas para que elas possam comprar e vender de forma fácil e rápida, mas não participamos ou interferimos de qualquer forma nas negociações.</p>
+
+							<p>Queremos que você tenha a melhor experiência possível no E-AGRO Por isso, veja as nossas dicas de como inserir um anúncio:</p>
+
 						</div>
 						<div class="col-md-4">
-							<img src="https://picsum.photos/600/?random" alt="Imagem sobre">
+							<img src="images/sobre-imagem.jpg" alt="Imagem sobre">
 						</div>
 						<div class="col-md-2"></div>
 					</div>
@@ -93,7 +96,23 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos hic animi dolorem voluptatibus, ex est repellendus at vitae perferendis consequuntur expedita distinctio, officia quisquam, culpa molestias pariatur totam sed illum.</p>
+							<p>Imagens - Elas são essenciais em um anúncio, pois demonstram o estado do produto que você está oferecendo. 
+							Anúncios com fotos são vistos até 7 vezes mais, além de atraírem a atenção dos compradores.
+							Atenção: Não é permitido utilizar imagens que contenham links ou e-mails.</p>
+
+							<p>Título - Procure ser objetivo. O título deve ser a parte do anúncio que descreve o produto/serviço oferecido em poucas palavras. 
+							Lembre-se: O título não pode conter palavras ou símbolos que não tenham relação com o que está sendo anunciado. Exemplo: “vendo”, “compro”, “oportunidade”, @#$%*, entre outros.</p>
+
+							<p>Contato - Crie a sua conta usando o seu próprio e-mail e telefone. Ter contatos verídicos evita denúncias de outros usuários.</p>
+
+							<p>Preço - O preço é um ponto muito importante no anúncio. Por isso, sempre coloque o valor total no campo “Preço”. Exemplo: Se você está vendendo um carro por R$ 30.000,00, coloque este valor no campo e, na descrição, cite as parcelas.
+							Lembre-se: Se o valor apresentado no campo “Preço” não for referente ao valor total do produto, o seu anúncio poderá ser removido.</p>
+
+							<p>Campos de seleção - Em algumas categorias você poderá encontrar filtros para detalhar o produto/serviço oferecido. Isso facilita na busca dos anúncios. 
+							Preencha a quantidade de quartos corretamente, modelo do carro, ano etc., para que os usuários encontrem o máximo de informações.</p>
+
+							<p>Descrição - Descreva bem seu produto/serviço, com todas as informações que você ainda não havia detalhado nos campos anteriores. Mostre para os usuários os motivos para comprar o seu produto ou contratar o seu serviço. 
+							Lembre-se: Não são permitidos anúncios que contenham palavras de busca que não estão diretamente relacionadas ao produto/serviço anunciado. Links e e-mails também não são permitidos.</p>
 						</div>
 					</div>
 				</div>

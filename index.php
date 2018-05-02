@@ -24,7 +24,7 @@
 	    			<div class="col-md-1"></div>
 	    			<div class="col-md-7">
 	    				<a class="navbar-brand" href="home.php">
-				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="logo do e-agro">
+				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="logo do e-agro" id="logo">
 				  		</a>
 	    			</div>
 	    			<div class="col-md-4">
@@ -42,8 +42,14 @@
 	<section id="titulo-Mapa">
 		<div class="row">
 			<div class="col-md-12" style="display: inline-flex;">
-				<h2 id="Bem-vindo-mapa">Bem vindo ao</h2>
-				<img src="images/E-agro logo.png" alt="Logo e-agro">
+				<div class="row">
+					<div class="col-md-6">
+						<h2 id="Bem-vindo-mapa">Bem vindo ao</h2>
+					</div>
+					<div class="col-md-6" id="titulo-logo-mapa">
+						<img src="images/E-agro logo.png" alt="Logo e-agro" id="logo-mapa">
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-12">
 				<h3>Escolha seu estado para ver ou publicar anuncios</h3>

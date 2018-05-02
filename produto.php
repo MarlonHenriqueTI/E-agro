@@ -25,7 +25,7 @@
 	    			<div class="col-md-1"></div>
 	    			<div class="col-md-7">
 	    				<a class="navbar-brand" href="home.php">
-				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="logo do e-agro">
+				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="logo do e-agro" id="logo">
 				  		</a>
 	    			</div>
 	    			<div class="col-md-4">
@@ -108,14 +108,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row" id="like-prod">
 						<div class="col-md-4" id="curtir-produto">
 							<p class="like-label">
 								Curtir: <a href="produto.php" id="Like"><i class="far fa-heart fa-1x"></i></a> 
 							</p>
 						</div>
 						<div class="col-md-8" id="compartilhar-produto"> 
-							<p>Compartilhar:Redes Sociais aqui</p>
+							<p>Compartilhar:     <a href="#"><i class="fab fa-facebook-f"></i></a>    <a href="#"><i class="fab fa-twitter"></i></a>   <a href="#"><i class="fab fa-whatsapp"></i></a></p>
 						</div>
 					</div>
 				</div>
@@ -129,9 +129,37 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda saepe, similique nesciunt eveniet debitis architecto a itaque eligendi et nostrum expedita iste aliquid, error fugit libero vero quos harum? Rem!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis alias debitis culpa minima laudantium voluptatibus possimus illum deleniti aut atque voluptatum voluptate provident vitae quam vel, mollitia totam numquam laboriosam.</p>
 					</div>
 				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-12" id="Comentarios">
+						<?php for ($i=0; $i < 5; $i++) { ?>						
+							<div class="row">
+								<div class="col-md-2" id="foto-usuario-comentario">
+									<img class="pic-usu-com" src="https://picsum.photos/150/?random" alt="imagem-Produto">
+								</div>
+								<div class="col-md-10">
+									<h5 id="nome-usuario-comentario">Nome do usuario</h5>
+									<p id="comentario">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sit suscipit numquam, libero adipisci, vitae aspernatur fuga eius odio, veniam porro repudiandae nam dolorem error excepturi dolor doloribus minima voluptates.
+									</p>
+								</div>
+							</div>
+						<?php } ?>
+					</div>
+				<div class="row">
+					<div class="col-md-12" id="comentaris-produto">
+						<h3 id="tit-comentario">Deixe seu comentário:</h3>
+						 <div class="form-group" id="comentarios-area">
+						 	<form>
+							    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+							    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn-comentario">comentar</button>
+						    </form>
+						  </div>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-md-12" id="mapa-produto">
-						<h2>Mapa + detalhes de localização</h2>
+						<h2>Saiba como chegar ao produto</h2>
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7507.316706426105!2d-43.17109572731246!3d-19.812077773770795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa5074732765415%3A0xe75615374cb9bb9a!2sJo%C3%A3o+Monlevade%2C+MG!5e0!3m2!1spt-BR!2sbr!4v1524940571423" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>

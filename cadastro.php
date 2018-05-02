@@ -25,7 +25,7 @@
 	    			<div class="col-md-1"></div>
 	    			<div class="col-md-7">
 	    				<a class="navbar-brand" href="home.php">
-				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="logo do e-agro">
+				    		<img src="images/E-agro logo.png" class="d-inline-block align-top" alt="logo do e-agro" id="logo">
 				  		</a>
 	    			</div>
 	    			<div class="col-md-4">
